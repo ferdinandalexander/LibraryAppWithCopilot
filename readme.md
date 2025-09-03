@@ -1,5 +1,15 @@
 # Library App
 
+## Recent Changes & Achievements
+
+- Refactored solution for improved modularity and separation of concerns.
+- Enhanced test coverage for core entities and services.
+- Added support for configuration via `appSettings.json` and JSON data files.
+- Improved console UI for better user experience.
+- Implemented clean architecture principles across all layers.
+- Added new domain entities and extended business logic in services.
+- Streamlined build and run instructions for easier onboarding.
+
 ## Description
 
 Library App is a modular .NET solution for managing library operations, including books, authors, patrons, and loans. It is designed with clean architecture principles, separating core logic, infrastructure, and console interface for maintainability and extensibility.
