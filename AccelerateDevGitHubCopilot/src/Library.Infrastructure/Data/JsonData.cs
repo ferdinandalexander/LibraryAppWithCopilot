@@ -6,6 +6,12 @@ namespace Library.Infrastructure.Data;
 
 public class JsonData
 {
+     // Existing code...
+
+    public Book? SearchBookByTitle(string title)
+    {
+        return Books?.FirstOrDefault(b => b.Title.Equals(title, StringComparison.OrdinalIgnoreCase));
+    }
     public List<Author>? Authors { get; set; }
     public List<Book>? Books { get; set; }
     public List<BookItem>? BookItems { get; set; }
